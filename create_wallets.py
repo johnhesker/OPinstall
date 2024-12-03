@@ -18,7 +18,7 @@ def save_wallets(wallets):
     print("Generated wallets stored in wallets.txt file")
 
 if __name__ == "__main__":
-    # Node count
-    node_count = int(input("Enter the number of wallets to generate: "))
+    # Always generate 30 wallets
+    node_count = 30
     wallets = generate_wallets(node_count)
     save_wallets(wallets)
